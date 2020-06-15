@@ -1,6 +1,6 @@
 # Community Bible Study Enabler
 
-## Requirements:
+### Requirements:
 1. pandas
 
 A python script the sends emails to the specified email ids with sending N(any number) of verses from the bible per email. The code is written such that it stars from the first verse of the book of Genesis and ends at the last verse of the book of Revelations.
