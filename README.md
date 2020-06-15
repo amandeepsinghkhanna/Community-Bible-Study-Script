@@ -5,7 +5,7 @@
 
 A python script the sends emails to the specified email ids with sending N(any number) of verses from the bible per email. The code is written such that it stars from the first verse of the book of Genesis and ends at the last verse of the book of Revelations.
 
-This scipt creates an Simple Mail Transfer Protocol**(SMTP)** server of the senders email id and send the emails to the specified list of email addresses.
+This scipt creates an Simple Mail Transfer Protocol **(SMTP)** server of the senders email id and send the emails to the specified list of email addresses.
 
 To automate it and run it as cron job on your mac or linux pc, open your terminal and type the following commands.
 
