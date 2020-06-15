@@ -1,4 +1,4 @@
-# Python based bible study enables:
+# Python based bible study enabler:
 
 This script starts from the first verse of Genesis, sends N(any number) verses per day, to a email until reaching the last verse of the book of Revelations.
 
