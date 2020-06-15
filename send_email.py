@@ -13,19 +13,14 @@ import smtplib  # for creating a mailserver.
 # importing PYPI modules:
 import pandas as pd  # for interfacing with the pandas DataFrame objects.
 
-# os.chdir(r"/home/pi/Desktop/bible_email_reminder")
-
 # setting global variables:
-file_path = "american_standard_bible.csv"
 verse_to_send = 3
 file_path = "american_standard_bible.csv"
-email_id = "amankhanna1993@hotmail.com"
-password = "Nikon@d3200"
-server_name = "smtp.live.com"
-port = 25
-receiver_ids = ["amandeepsinghkhanna@gmail.com", 
-"simeran.khanna@dell.com", "simerankaurkhanna@gmail.com", 
-"parashar.upro@gmail.com", "jaswinder_singh90@live.com"]
+email_id = # EMAIL ID OF SENDER
+password = # EMAIL PASSWORD OF SENDER
+server_name = # SMTP SERVER ADDRESS
+port = # SMTP SERVER PORT
+receiver_ids = #[Add a list of emails of the email receivers]
 
 # setting the logging configuration:
 logging.basicConfig(
