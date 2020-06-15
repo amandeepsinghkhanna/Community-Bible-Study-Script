@@ -1,8 +1,22 @@
-# Python based bible study enabler:
+# Community Bible Study Enabler
 
-This script starts from the first verse of Genesis, sends N(any number) verses per day, to a email until reaching the last verse of the book of Revelations.
+## Requirements:
+1. pandas
 
-I wrote this script to aid in community bible study. When scheduled by a scheduler this will send the selected versed once a day. 
+A python script the sends emails to the specified email ids with sending N(any number) of verses from the bible per email. The code is written such that it stars from the first verse of the book of Genesis and ends at the last verse of the book of Revelations.
 
-I used a cron job to schedule it my rasberry pi to send an email with 10 verses everyday.
+To automate it and run it as cron job on your mac or linux pc, open your terminal and type the following commands.
 
+```
+  crontab -e
+```
+
+By default if either opens up in nano or vim, type the following and save the file.
+
+```
+  0 9 * * * * python3 <path to the file>
+```
+
+This should run the script at 9:00 AM everyday. 
+
+If on the the windows PC you can use the windows task scheduler.
